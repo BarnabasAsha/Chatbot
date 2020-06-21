@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    color: #421; 
+    font-weight: bold; 
+    font-size: 18px; 
+    font-family: "Courier New"; 
+    background: rgb(200, 232, 241); 
+
+
+}
+body::after {
+    content: "";
+    background-image: url("./chatbot.webp");
+    background-size: cover;
+    background-repeat: repeat-x; 
+    background-position: left;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+span { 
+    color: rgb(36, 17, 119); 
+} 
+::-webkit-input-placeholder { 
+    color: #711 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > .container{
+    width: 400px;
+    height: 100vh;
+    background: #e0e0e0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat-input {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat-input #input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: #fff;
+}
+
+#user {
+    background: rgb(200, 232, 241);
+    padding: 5px;
+    margin-bottom: 1em;
+    width: 60%;
+    text-align: left;
+    transform: translateX(70%);
+}
+
+#bot {
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 1em;
+    width: 60%;
+    text-align: left;
+}
