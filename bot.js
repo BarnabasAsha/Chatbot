@@ -115,8 +115,9 @@ const trigger = [
 
 document.addEventListener("DOMContentLoaded", () => {
     const inputField = document.getElementById("input")
-    inputField.addEventListener("keydown", function(e) {
-        if (e.code === "Enter") {
+    const submit = document.getElementById('submit')
+    submit.addEventListener("click", function(e) {
+        if (e) {
             let input = inputField.value;
             // document.getElementById("user").innerHTML = input;
             output(input);
