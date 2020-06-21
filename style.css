@@ -10,23 +10,7 @@ body {
     font-size: 18px; 
     font-family: "Courier New"; 
     background: rgb(200, 232, 241); 
-
-
 }
-body::after {
-    content: "";
-    background-image: url("./chatbot.webp");
-    background-size: cover;
-    background-repeat: repeat-x; 
-    background-position: left;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
 span { 
     color: rgb(36, 17, 119); 
 } 
@@ -49,6 +33,7 @@ main > .container{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 0 0 5px;
 }
 
 #chat-input {
@@ -59,6 +44,14 @@ main > .container{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#chat-area {
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-padding: 0;
+    width: 99%;
 }
 
 #chat-input #input {

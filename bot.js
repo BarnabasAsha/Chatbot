@@ -4,17 +4,29 @@ const trigger = [
     //1
     ["how are you", "how are things"],
     //2
-    ["what is going on", "what is up"],
+    ["what is going on", "what is up","How is the lockdown going"],
+    //2
+    ["I'm good", "I'm not fine", "well", "alright"],
     //3
-    ["happy", "good", "well", "fantastic", "cool"],
+    ["who are you", "what do we talk about"],
     //4
-    ["bad", "bored", "tired", "sad"],
+    ["happy", "good", "well", "fantastic", "cool"],
     //5
-    ["tell me story", "tell me joke"],
+    ["bad", "bored", "tired", "sad"],
     //6
-    ["thanks", "thank you"],
+    ["tell me story", "tell me joke"],
     //7
-    ["bye", "good bye", "goodbye"]
+    ["thanks", "thank you"],
+    //8
+    ["bye", "good bye", "goodbye"],
+    //9
+    ["love", "hope"],
+    //9
+    ["Robot", "Bot", "Machine", "Computer"],
+    //6
+    ["Yes", "No"],
+    //10
+    ["Money", "Rich", "Dollars"]
     ];
     
     const reply = [
@@ -31,16 +43,28 @@ const trigger = [
         "Nothing much",
         "Exciting things!"
       ],
-    //3
-    ["Glad to hear it"],
+      //2
+    ["Good to hear", "Wow, cool", "Pretty Nice"],
+      //3
+    ["Human as you, So lets talk...", "Anything is fine"],
     //4
-    ["Why?", "Cheer up buddy"],
+    ["Glad to hear it"],
     //5
-    ["What about?", "Once upon a time..."],
+    ["Why?", "Cheer up buddy"],
     //6
-    ["You're welcome", "No problem"],
+    ["What about?", "Once upon a time..."],
     //7
+    ["You're welcome", "No problem"],
+    //8
     ["Goodbye", "See you later"],
+    //9
+    ["Have you found love?", "Hope is not a strategy"],
+    //9
+    ["I'm not a bot, I just do what i'm asked", "I code", "I can see you"],
+    //
+    ["Wow, You are a genius", "Why is that?"],
+    //10
+    ["Work hard money will come", "Your account number?"]
     ];
     
     const alternative = [
@@ -48,7 +72,11 @@ const trigger = [
       "Go on...",
       "Try again",
       "I'm listening...",
-      "Bro..."
+      "Bro...",
+      "E be things",
+      "I no hear you",
+      "Huh?",
+      "Do you code?"
     ];
 
     const robot = ["How do you do, fellow human", "I am not a bot"];
