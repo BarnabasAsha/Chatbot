@@ -4,7 +4,7 @@ const trigger = [
     //1
     ["how are you", "how are things"],
     //2
-    ["what is going on", "what is up","How is the lockdown going"],
+    ["what is going on", "what is up","How is the lockdown going", "whats up"],
     //2
     ["I'm good", "I'm not fine", "well", "alright"],
     //3
